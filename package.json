@@ -40,7 +40,7 @@
                 "PLAY-SERVICES-LOCATION": "17.0.0"
             },
             "cordova-plugin-admobpro": {
-                "PLAY_SERVICES_VERSION": "17.0.0",
+                "PLAY_SERVICES_VERSION": "16.0.0",
                 "ADMOB_APP_ID": "ca-app-pub-3756352465808334~2148080951"
             },
             "cordova-plugin-app-version": {},
