@@ -1,0 +1,57 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com.bunkerpalace.cordova.YoutubeVideoPlayer": {
+      "PACKAGE_NAME": "com.appgenny.latest"
+    },
+    "com.santinowu.cordova.imagedownloader": {
+      "PACKAGE_NAME": "com.appgenny.latest"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.appgenny.latest"
+    },
+    "cordova-android-play-services-gradle-release": {
+      "PACKAGE_NAME": "com.appgenny.latest"
+    },
+    "cordova-plugin-admobpro": {
+      "ADMOB_APP_ID": "",
+      "PLAY_SERVICES_VERSION": "17.0.0",
+      "PACKAGE_NAME": "com.appgenny.latest"
+    },
+    "cordova-plugin-app-version": {
+      "PACKAGE_NAME": "com.appgenny.latest"
+    },
+    "cordova-plugin-customconfigparameters": {
+      "PACKAGE_NAME": "com.appgenny.latest"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.appgenny.latest"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.appgenny.latest"
+    },
+    "cordova-plugin-shortcuts-android": {
+      "PACKAGE_NAME": "com.appgenny.latest"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.appgenny.latest"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.appgenny.latest"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "com.appgenny.latest"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-extension": {
+      "PACKAGE_NAME": "com.appgenny.latest"
+    }
+  }
+}

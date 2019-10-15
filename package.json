@@ -1,0 +1,55 @@
+{
+    "name": "com.appgenny.latest",
+    "displayName": "Appgenny",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "ecosystem:cordova"
+    ],
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "com.bunkerpalace.cordova.YoutubeVideoPlayer": "git+https://github.com/JonSmart/CordovaYoutubeVideoPlayer.git",
+        "cordova-android": "^8.1.0",
+        "cordova-android-play-services-gradle-release": "^4.0.0",
+        "cordova-plugin-admobpro": "^2.49.0",
+        "cordova-plugin-app-version": "^0.1.9",
+        "cordova-plugin-customconfigparameters": "^3.0.0",
+        "cordova-plugin-extension": "1.5.4",
+        "cordova-plugin-imagedownloader": "git+https://github.com/Santino-Wu/cordova-plugin-imagedownloader.git",
+        "cordova-plugin-network-information": "^2.0.2",
+        "cordova-plugin-screen-orientation": "^3.0.2",
+        "cordova-plugin-shortcuts-android": "^0.1.1",
+        "cordova-plugin-splashscreen": "^5.0.3",
+        "cordova-plugin-statusbar": "^2.4.3",
+        "cordova-plugin-whitelist": "1",
+        "es6-promise-plugin": "^4.2.2",
+        "onesignal-cordova-plugin": "^2.6.0"
+    },
+    "cordova": {
+        "plugins": {
+            "com.bunkerpalace.cordova.YoutubeVideoPlayer": {},
+            "com.santinowu.cordova.imagedownloader": {},
+            "cordova-plugin-whitelist": {},
+            "cordova-android-play-services-gradle-release": {
+                "PLAY-SERVICES-LOCATION": "17.0.0"
+            },
+            "cordova-plugin-admobpro": {
+                "PLAY_SERVICES_VERSION": "17.0.0",
+                "ADMOB_APP_ID": "ca-app-pub-3756352465808334~2148080951"
+            },
+            "cordova-plugin-app-version": {},
+            "cordova-plugin-customconfigparameters": {},
+            "cordova-plugin-network-information": {},
+            "cordova-plugin-screen-orientation": {},
+            "cordova-plugin-shortcuts-android": {},
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-statusbar": {},
+            "onesignal-cordova-plugin": {}
+        }
+    }
+}
