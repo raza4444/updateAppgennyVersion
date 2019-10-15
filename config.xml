@@ -41,7 +41,6 @@
     <preference name="loadUrlTimeoutValue" value="70000" />
     <engine name="android" spec="^8.0.0" />
     <plugin name="com.bunkerpalace.cordova.YoutubeVideoPlayer" spec="https://github.com/JonSmart/CordovaYoutubeVideoPlayer.git" />
-    <plugin name="cordova-plugin-whitelist" spec="1" />
     <plugin name="cordova-android-play-services-gradle-release" spec="^4.0.0">
         <variable name="PLAY-SERVICES-LOCATION" value="17.0.0" />
     </plugin>
